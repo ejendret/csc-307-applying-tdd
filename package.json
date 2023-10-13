@@ -1,0 +1,18 @@
+{
+  "name": "jest-unit-testing",
+  "version": "1.0.0",
+  "description": "Testing environment for csc-307.",
+  "main": "stocks.js",
+  "type": "module",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest"
+  },
+  "jest": {
+    "transform": {}
+  },
+  "author": "Emory",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
